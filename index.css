@@ -23,16 +23,6 @@ textarea {
     outline: none;
 }
 
-@media screen and (max-width: 799px) {
-    h1 {
-        line-height: 1;
-    }
-
-    textarea {
-        width: 80%;
-    }
-}
-
 button,
 a {
     color: #DDD;
@@ -56,4 +46,14 @@ button:active {
     color: #CCC;
     background-color: #333;
     border-color: #444;
+}
+
+@media screen and (max-width: 799px) {
+    h1 {
+        line-height: 1;
+    }
+
+    textarea {
+        width: 80%;
+    }
 }
