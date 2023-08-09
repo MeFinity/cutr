@@ -1,13 +1,13 @@
 function binaryToText() {
-    const binaryInput = document.getElementById("binaryInput").value;
-    const textOutput = document.getElementById("textInput");
-    textOutput.value = binaryToString(binaryInput);
+    const input = document.getElementById("output").value;
+    const textOutput = document.getElementById("input");
+    textOutput.value = binaryToString(input);
 }
 
 function textToBinary() {
-    const textInput = document.getElementById("textInput").value;
-    const binaryOutput = document.getElementById("binaryInput");
-    binaryOutput.value = stringToBinary(textInput);
+    const input = document.getElementById("input").value;
+    const binaryOutput = document.getElementById("output");
+    binaryOutput.value = stringToBinary(input);
 }
 
 function binaryToString(binary) {

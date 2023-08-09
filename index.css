@@ -57,9 +57,3 @@ button:active {
     background-color: #333;
     border-color: #444;
 }
-
-.binary:hover {
-    color: #11FF00;
-    background-color: #11ff0033;
-    border: 3px solid #11ff0055;
-}
